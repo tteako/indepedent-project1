@@ -1,0 +1,19 @@
+body {
+    
+}
+
+.banner {
+    background-image: url('../img/banner.png');
+    border-left: 45px solid white;
+    border-right: 45px solid white;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    
+}
