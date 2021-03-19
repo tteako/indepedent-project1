@@ -6,14 +6,30 @@ body {
     background-image: url('../img/banner.png');
     border-left: 45px solid white;
     border-right: 45px solid white;
-    height: 500px;
+    height: 400px;
     background-repeat: no-repeat;
-    background-size: contain;
-    margin: 0 auto;
+    background-size: cover;
+    background-position: center center;
+    /*margin: 0 auto;*/
+    padding-top: 50px;
+    
+}
+.banner h1 {
+    font-size: 20px;
+    color: azure;
+    
+    margin-left: 90px;
 }
 
 .nav-ul {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     
+    
+}
+.nav-li {
+    color: azure;
+    font-size: 15px;
+    margin-right: 68px;
 }
