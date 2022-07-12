@@ -4,28 +4,29 @@ body {
 
 .banner {
     background-image: url('../img/banner.png');
-    border-left: 45px solid white;
-    border-right: 45px solid white;
-    height: 400px;
+    /* border-left: 45px solid white;
+    border-right: 45px solid white; */
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     /*margin: 0 auto;*/
     padding-top: 50px;
+    align-items: baseline;
     
 }
-.banner h1 {
+.banner a {
     font-size: 20px;
     color: azure;
-    
-    margin-left: 8%;
+  
+    /* margin-left: 3%; */
 }
 
 .nav-ul {
     display: flex;
     flex-direction: row;
-    /* justify-content:center;
-    align-items: center; */
+    /* justify-content: flex-end; */
+    /* align-items: flex-start; */
     
     
 }
