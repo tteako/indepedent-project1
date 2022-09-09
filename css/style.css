@@ -1,24 +1,22 @@
-body {
-    
-}
+
 
 .banner {
     background-image: url('../img/banner.png');
-    /* border-left: 45px solid white;
-    border-right: 45px solid white; */
+    border-left: 45px solid white;
+    border-right: 45px solid white;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     /*margin: 0 auto;*/
-    padding-top: 50px;
-    align-items: baseline;
-    
+    /* padding-top: 50px;
+    align-items: baseline; */
 }
 .banner-txt {
     font-size: 20px;
     color: azure;
-    margin: 0px 0px 50px 0px;
+    margin: 0px 0px 50px 20px;
+    align-items: flex-start;
 }
 a:visited {
     color: white;
@@ -33,8 +31,12 @@ a:visited {
 }
 .nav-li {
     color: rgb(251, 251, 251);
-    font-size: 15px;
+    font-size: 20px;
     margin-right: 68px;
+}
+
+.nav-ul li:first-child {
+    margin-left: 20px;
 }
 
 .nav-li a{
