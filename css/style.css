@@ -15,13 +15,14 @@ body {
     align-items: baseline;
     
 }
-.banner a {
+.banner-txt {
     font-size: 20px;
     color: azure;
-  
-    /* margin-left: 3%; */
+    margin: 0px 0px 50px 0px;
 }
-
+a:visited {
+    color: white;
+  }
 .nav-ul {
     display: flex;
     flex-direction: row;
