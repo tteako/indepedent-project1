@@ -52,6 +52,7 @@ a:visited {
     width: 100px;
     height: 100px;
     border-color: brown;
+    border-style: dotted;
 
 }
 
