@@ -59,6 +59,14 @@ a:visited {
     position: absolute;
     top: 400px;
     left: 300px;
+    font-size: 18px;
 
+}
+.misamarti{
+    font-size:15px;
+
+}
+a{
+    color:#ff4d4d;
 }
 
