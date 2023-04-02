@@ -50,10 +50,15 @@ a:visited {
     background-image: url('../img/contact-bkgr.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 500px;
-    height: 500px;
+    width: 900px;
+    height: 900px;
     align-items: center;
-
+    position: relative;
+}
+.contact-text {
+    position: absolute;
+    top: 50px;
+    left: 100px;
 
 }
 
