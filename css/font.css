@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Got Love';
+    src: url(../css/font.css'GotLove.woff2') format('woff2'),
+        url('../css/font.css/'GotLove.woff') format('woff'),
+        url('../css/font.css/GotLove.svg#GotLove') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
