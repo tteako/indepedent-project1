@@ -18,9 +18,7 @@
     margin: 0px 0px 50px 20px;
     align-items: flex-start;
 }
-a:visited {
-    color: white;
-  }
+
 .nav-ul {
     display: flex;
     flex-direction: row;
@@ -61,13 +59,16 @@ a:visited {
     top: 400px;
     left: 300px;
     font-size: 18px;
-
+   
 }
 .misamarti{
     font-size:15px;
-
-}
-a{
+    
     color:#ff4d4d;
+    display: block;
+    
 }
 
+body {
+    background-color: #F3D9C9;
+}
