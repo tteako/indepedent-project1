@@ -2,8 +2,8 @@
 
 .banner {
     background-image: url('../img/banner.png');
-    border-left: 45px solid white;
-    border-right: 45px solid white;
+    /* border-left: 45px solid white;
+    border-right: 45px solid white; */
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,6 +17,9 @@
     color: azure;
     margin: 0px 0px 50px 20px;
     align-items: flex-start;
+}
+.banner-txt a {
+    color: white;
 }
 
 .nav-ul {
@@ -34,7 +37,7 @@
 }
 
 .nav-ul li:first-child {
-    margin-left: 20px;
+    margin-left: 70px;
 }
 
 .nav-li a{
