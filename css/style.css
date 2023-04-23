@@ -74,7 +74,9 @@
     height: 100%;
     background-color: rgb(224, 211, 89);
     border-radius: 15%;
-    font-size: 15px;
+    font-size: 14px;
+    padding: 5px;
+    line-height: 17px;
 }
 
 .middle-paragraph4 {
@@ -95,6 +97,11 @@
     background-color: rgb(219, 122, 122);
     border-radius: 15%;
     font-size: 15px;
+}
+
+h6 {
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 /* ---------------here starts contact page css----------- */
