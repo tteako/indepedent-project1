@@ -48,13 +48,14 @@
 }
 
 .ul-middle-paragraph {
-    list-style-type: square;
+   list-style-type: disc;
+    padding-left: 10px;
 }
 
 .middle-paragraph1 {
     flex: 1;
     align-items: center;
-    width: 20%;
+    width: 18%;
     height: 100%;
     background-color: rgb(167, 34, 125);
     border-radius: 15%;
@@ -63,42 +64,46 @@
 
 .middle-paragraph2 {
     flex: 1;
-    width: 20%;
+    width: 18%;
     height: 100%;
     background-color: rgb(173, 12, 12);
     border-radius: 10%;
     font-size: 15px;
+    margin-left: 5px;
 }
 
 .middle-paragraph3 {
     flex: 1;
-    width: 20%;
+    width: 18%;
     height: 100%;
     background-color: rgb(224, 211, 89);
     border-radius: 15%;
     font-size: 12px;
     padding: 5px;
     line-height: 17px;
+    margin-left: 5px;
 }
 
 .middle-paragraph4 {
     flex: 1;
-    width: 20%;
+    width: 18%;
     height: 100%;
     background-color: rgb(87, 186, 126);
     border-radius: 15%;
-    font-size: 15px;
+    font-size: 12px;
     border: 2px;
     border-color: black;
+    margin-left: 5px;
 }
 
 .middle-paragraph5 {
     flex: 1;
-    width: 20%;
+    width: 18%;
     height: 100%;
     background-color: rgb(219, 122, 122);
     border-radius: 15%;
     font-size: 15px;
+    margin-left: 5px;
 }
 
 h6 {
