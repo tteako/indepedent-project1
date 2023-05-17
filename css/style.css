@@ -8,28 +8,25 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    /*margin: 0 auto;*/
-    /* padding-top: 50px;
-    align-items: baseline; */
 }
+
 .banner-txt {
     font-size: 20px;
     color: azure;
     margin: 0px 0px 50px 20px;
     align-items: flex-start;
 }
+
 .banner-txt a {
     color: white;
 }
 
 .nav-ul {
     display: flex;
-    flex-direction: row;
-    /* justify-content: flex-end; */
-    /* align-items: flex-start; */
-    
+    flex-direction: row;  
     
 }
+
 .nav-li {
     color: rgb(251, 251, 251);
     font-size: 20px;
@@ -47,7 +44,11 @@
 
 .middle-paragraphs {
     display: flex;
-    height: 250px;
+    height: 300px;
+}
+
+.ul-middle-paragraph {
+    list-style-type: square;
 }
 
 .middle-paragraph1 {
@@ -68,13 +69,14 @@
     border-radius: 10%;
     font-size: 15px;
 }
+
 .middle-paragraph3 {
     flex: 1;
     width: 20%;
     height: 100%;
     background-color: rgb(224, 211, 89);
     border-radius: 15%;
-    font-size: 14px;
+    font-size: 12px;
     padding: 5px;
     line-height: 17px;
 }
@@ -105,6 +107,9 @@ h6 {
 }
 
 /* ---------------here starts contact page css----------- */
+body {
+    background-color: #F3D9C9;
+}
 
 .contact {
     background-image: url('../img/contact-bkgr.png');
@@ -114,23 +119,17 @@ h6 {
     height: 900px;
     align-items: center;
     position: relative;
-    
 }
+
 .contact-satauri {
     position: absolute;
     top: 400px;
     left: 300px;
     font-size: 18px;
-   
-}
-.misamarti{
-    font-size:15px;
-    
-    color:#ff4d4d;
-    display: block;
-    
 }
 
-body {
-    background-color: #F3D9C9;
+.misamarti{
+    font-size:15px;
+    color:#ff4d4d;
+    display: block;
 }
