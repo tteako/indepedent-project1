@@ -1,8 +1,12 @@
 @media only screen and (max-width: 380px) {
     .middle-paragraphs {
-       display: block;
-       flex-wrap: wrap;
-       width: 300px;
+       display: flex;
+       flex-direction: column;
         
+    }
+
+    .middle-paragraph {
+        width: 100%;
+        padding: 20px;
     }
   }
