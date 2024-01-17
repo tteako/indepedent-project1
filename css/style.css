@@ -129,6 +129,7 @@ h6 {
 body {
     background-image: url('../img/banner.png');
     background-size: cover;
+    background-repeat: inherit; 
 }
 
 .contact {
