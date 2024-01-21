@@ -1,5 +1,9 @@
 /* -------------------index css--------------------------*/
-
+.index{
+    background-image: url('../img/banner.png');
+    background-size: cover;
+    background-repeat: inherit; 
+}
 .banner {
     background-image: url('../img/banner.png');
     /* border-left: 45px solid white;
@@ -126,16 +130,16 @@ h6 {
 }
 
 /* ---------------here starts contact page css----------- */
-body {
-    background-image: url('../img/banner.png');
+ .contact-page{
+    background-image: url('../img/contact-bkgr.png');
     background-size: cover;
-    background-repeat: inherit; 
-}
+
+} 
 
 .contact {
-    background-image: url('../img/contact-bkgr.png');
+    /* background-image: url('../img/contact-bkgr.png');
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     width: 900px;
     height: 900px;
     align-items: center;
@@ -146,11 +150,11 @@ body {
     position: absolute;
     top: 400px;
     left: 300px;
-    font-size: 18px;
+    font-size: 50px;
 }
 
 .misamarti{
-    font-size:15px;
+    font-size:20px;
     color:#ff4d4d;
     display: block;
 }
